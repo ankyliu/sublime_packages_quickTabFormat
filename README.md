@@ -16,14 +16,14 @@
         "keys": ["ctrl+2"],
         "command": "run_macro_file",
         "args": {
-          "file": "Packages/to-2.sublime-macro"
+          "file": "Packages/tab2fmt.sublime-macro"
         }
       },
       {
         "keys": ["ctrl+4"],
         "command": "run_macro_file",
         "args": {
-          "file": "Packages/to-4.sublime-macro"
+          "file": "Packages/tab4fmt.sublime-macro"
         }
       }
 ```
