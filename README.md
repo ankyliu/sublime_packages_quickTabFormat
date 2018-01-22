@@ -7,9 +7,10 @@
 
 使用前请确认已正确安装HTML-CSS-JS Prettify（插件地址：https://packagecontrol.io/packages/HTML-CSS-JS%20Prettify）
 
-以下是Win版本的快捷键设置，请确认两个文件正确解压到Sublime3安装目录下的Data\Packages下
-安装成功后用Ctrl+2来格式化成tab2空格缩进
-安装成功后用Ctrl+4来格式化成tab4字节缩进(默认是不使用空格缩进的)
+以下是Win版本的快捷键设置，请确认两个文件正确解压到Sublime3安装目录下的Data\Packages下  
+在快捷键中增加以下绑定，可以自己自己习惯修改
+安装成功后用Ctrl+2来格式化成tab2空格缩进  
+安装成功后用Ctrl+4来格式化成tab4字节缩进(默认是不使用空格缩进的)  
 
 ```
 {
