@@ -1,6 +1,22 @@
+/*
+	当前启用 用4空格代替1Tab做缩进，自己选择使用一段，将另一段注释掉
+*/
+
+[
+  { "args": { "set_translate_tabs": true }, "command": "unexpand_tabs" },
+  { "args": { "setting": "tab_size", "value": 4 }, "command": "set_setting" },
+  { "args": { "set_translate_tabs": true }, "command": "expand_tabs" },
+  { "args": null, "command": "htmlprettify" }
+]
+
+/**
+	用Tab缩进，1Tab4空格
+
 [
   { "args": { "set_translate_tabs": false }, "command": "unexpand_tabs" },
   { "args": { "setting": "tab_size", "value": 4 }, "command": "set_setting" },
   { "args": { "set_translate_tabs": false }, "command": "replace_next" },
   { "args": null, "command": "htmlprettify" }
 ]
+
+*/
